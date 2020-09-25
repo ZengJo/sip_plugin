@@ -103,8 +103,7 @@ typedef enum pjsip_inv_state
 
 需要保证flutter_pjsip.xcconfig文件与Pods-Runner.debug.xcconfig文件的`'GCC_PREPROCESSOR_DEFINITIONS'`和`'HEADER_SEARCH_PATHS'` 的配置高度一致，否者会报#include <pjsua-lib/pjsua.h>头文件找不到的错。
 
-## Flutter 传值给原生方法名
-使用示例
+## Flutter 使用示例
 ```
 import 'dart:async';
 
